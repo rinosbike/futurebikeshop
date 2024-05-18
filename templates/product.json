@@ -1,1 +1,339 @@
-{"sections":{"1688563395a8c2c777":{"type":"apps","disabled":true,"settings":{"include_margins":true}},"conversionbanner_w3U6b8":{"type":"conversionbanner","settings":{"quality_text":"Beste Qualität","payment_text":"Sicheres Bezahlen","delivery_text":"Schnelle Lieferung","return_text":"14 Tage Rückgabe"}},"main":{"type":"main-product","blocks":{"vendor":{"type":"text","settings":{"text":"{{ product.vendor }}","text_style":"body"}},"title":{"type":"title","settings":{}},"caption":{"type":"text","settings":{"text":"{{ product.metafields.descriptors.subtitle.value }}","text_style":"subtitle"}},"rating":{"type":"rating","settings":{}},"price":{"type":"price","settings":{}},"custom_liquid_a3Kix4":{"type":"custom_liquid","settings":{"custom_liquid":"<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document<\/title>\n<\/head>\n<style>\n\n.section-1-container{\n    margin-top: 5px;\n    max-width: 250px;\n    display: grid;\n    grid-template-columns: 1fr 2fr;\n    border: 1px solid rgba(0, 0, 0, 0.1);\n    border-radius: 10px;\n\n}\n\n.icon-10{\n    padding-top: 19px;\n    padding-left: 20px;\n}\n\n.icon-20{\n    height: 30px;\n    width: auto;\n}\n\n.text-10{\n    font-size: 18px;\n    font-weight: bold;\n    color: black;\n    font-family: sans-serif;\n}\n\n.div-text-20{\n    margin-left: -10px;\n    padding-top: 1px;\n}\n\n<\/style>\n<body>\n    <section class=\"section-1\">\n        <div class=\"section-1-container\">\n            <div class=\"icon-10\">\n                <img class=\"icon-20\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/clock.arrow.circlepath_10x_2d3128b5-2db0-418a-9850-59e8acc047ad.png?v=1706298857\">\n            <\/div>\n            <div class=\"div-text-20\">\n                <p class=\"text-10\">2 Jahre Garantie<\/p>\n            <\/div>\n        <\/div>\n    <\/section>\n<\/body>\n<\/html>"}},"variant_picker":{"type":"variant_picker","settings":{"picker_type":"button","swatch_shape":"circle"}},"quantity_selector":{"type":"quantity_selector","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":true,"show_gift_card_recipient":true}},"share":{"type":"share","settings":{"share_label":"Teilen"}}},"block_order":["vendor","title","caption","rating","price","custom_liquid_a3Kix4","variant_picker","quantity_selector","buy_buttons","share"],"settings":{"enable_sticky_info":true,"color_scheme":"","media_size":"small","constrain_to_viewport":true,"media_fit":"contain","gallery_layout":"thumbnail_slider","media_position":"left","image_zoom":"lightbox","mobile_thumbnails":"hide","hide_variants":true,"enable_video_looping":false,"padding_top":60,"padding_bottom":0}},"product_description_JzqWJN":{"type":"product-description","settings":{}},"1680593778598b9b08":{"type":"apps","settings":{"include_margins":true}},"custom_liquid_zNVXaz":{"type":"custom-liquid","settings":{"custom_liquid":"<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Review-section<\/title>\n<style>\n\n    .review-section-container{\n        max-width: 1200px;\n        margin-left: auto;\n        margin-right: auto;\n    }\n\n    .review-section-title{\n        font-size: 35px;\n        font-weight: 600;\n        margin-top: 50px;\n        margin-bottom: 50px;\n    }\n\n    .review-section-content{\n        max-width: 1200px;\n        margin-left: auto;\n        margin-right: auto;\n        display: grid;\n        grid-template-columns: repeat(3, 1fr);\n        column-gap: 25px;\n        row-gap: 25px;\n    }\n\n    .review-section-card{\n        padding: 25px;\n        padding-bottom: 5px;\n        min-height: 375px;\n        background-color: rgb(255, 255, 255);\n        border-radius: 15px;\n        border: 0.5px solid rgb(218, 218, 218);\n        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;\n        box-shadow: 0 0 15px -3px rgba(0,0,0,0.1);\n        -webkit-box-shadow: 0 0 15px -3px rgba(0,0,0,0.1);\n        -moz-box-shadow: 0 0 15px -3px rgba(0,0,0,0.1);\n        position: relative;\n    }\n\n    :hover.review-section-card{\n        box-shadow: 0 0 15px 2px rgba(0,0,0,0.3);\n        -webkit-box-shadow: 0 0 15px 2px rgba(0,0,0,0.3);\n        -moz-box-shadow: 0 0 15px 2px rgba(0,0,0,0.3);\n        transform: scale(1.05);\n    }\n\n    .review-section-card-title{\n        text-align: left;\n        font-size: 25px;\n        color: black;\n        font-weight: 600;\n        margin-bottom: 10px;\n    }\n\n    .review-section-card-star{\n        width: 25px;\n        height: 25px;\n    }\n\n    .review-section-card-name{\n        font-size: 20px;\n    }\n\n    .review-section-card-text{\n        font-size: 15px;\n        margin-top: -15px;\n    }\n\n    .gridelement-post-date {\n        position: absolute;\n        bottom: 10px;\n        left: 25px;\n        text-align: left;\n        color: gray;\n    }\n\n\n    @media screen and (max-width: 1200px){\n    .review-section-content{\n        row-gap: 15px;\n        column-gap: 15px;\n    }\n\n    .review-section-card-name{\n        font-size: 18px;\n    }\n\n    .review-section-card-text{\n        font-size: 13px;\n    }\n}\n\n@media screen and (max-width: 800px) {\n    .review-section-content {\n        grid-template-columns: repeat(2, 1fr);\n        margin-left: 10px;\n        margin-right: 10px;\n        column-gap: 10px;\n        row-gap: 10px;\n    }\n\n    .gridelement-post-date {\n        \/* Adjust styles here for smaller screens *\/\n        font-size: 0.8em;\n        bottom: 10px;\n    }\n\n    .review-section-card-text {\n        \/* Adjust styles here for smaller screens *\/\n        font-size: 0.9em;\n    }\n\n    .review-section-card-title{\n        font-size: 22.5px;\n    }\n\n    .review-section-title{\n        font-size: 30px;\n        font-weight: 600;\n        margin-top: 50px;\n        margin-bottom: 50px;\n        margin-left: 20px;\n    }\n\n    :hover.review-section-card{\n        box-shadow: 0 0 15px 2px rgba(0,0,0,0.3);\n        -webkit-box-shadow: 0 0 15px 2px rgba(0,0,0,0.3);\n        -moz-box-shadow: 0 0 15px 2px rgba(0,0,0,0.3);\n        transform: scale(1.01);\n    }\n\n}\n\n@media screen and (max-width: 500px) {\n    .review-section-content {\n        grid-template-columns: repeat(1, 1fr);\n        margin-left: 10px;\n        margin-right: 10px;\n        column-gap: 10px;\n        row-gap: 10px;\n    }\n\n    \n}\n<\/style>\n<\/head>\n<body>\n    <section class=\"review-section\">\n        <div class=\"review-section-container\">\n            <h1 class=\"review-section-title\">Was unser Kunden sagen<\/h1>\n            <div class=\"review-section-content\">\n                <div class=\"review-section-card\">\n                    <div class=\"review-section-card-content\">\n                        <h2 class=\"review-section-card-title\">Kann man machen<\/h2>\n                        <div class=\"review-section-card-rating\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.fill.svg?v=1714304941\" alt=\"star\" class=\"review-section-card-star\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.fill.svg?v=1714304941\" alt=\"star\" class=\"review-section-card-star\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.fill.svg?v=1714304941\" alt=\"star\" class=\"review-section-card-star\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.fill.svg?v=1714304941\" alt=\"star\" class=\"review-section-card-star\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.leadinghalf.filled.svg?v=1714304941\" alt=\"star\" class=\"review-section-card-star\">\n                        <\/div>\n                        <p class=\"review-section-card-name\">Hans Müller<\/p>\n                        <p class=\"review-section-card-text\">Ich habe ein Faltrad gekauft und bin sehr zufrieden mit dem Erlebnis. Das Fahrrad selbst ist von hoher Qualität und erfüllt alle meine Erwartungen. Ich kann den Shop nur empfehlen!<\/p>\n                        <p class=\"gridelement-post-date\">04.04.2024<\/p>\n                    <\/div>\n                <\/div>\n                <div class=\"review-section-card\">\n                    <div class=\"review-section-card-content\">\n                        <h2 class=\"review-section-card-title\">Lieferung und Produkt ok👍<\/h2>\n                        <div class=\"review-section-card-rating\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.fill.svg?v=1714304941\" alt=\"star\" class=\"review-section-card-star\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.fill.svg?v=1714304941\" alt=\"star\" class=\"review-section-card-star\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.fill.svg?v=1714304941\" alt=\"star\" class=\"review-section-card-star\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.svg?v=1714304940\" alt=\"star\" class=\"review-section-card-star\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.svg?v=1714304940\" alt=\"star\" class=\"review-section-card-star\">\n                        <\/div>\n                        <p class=\"review-section-card-name\">L. Schneider<\/p>\n                        <p class=\"review-section-card-text\">Ich habe kürzlich einen Shimano Schalthebel von diesem Shop erworben. Der Schalthebel erfüllt seine Funktion und die Qualität ist solide.<\/p>\n                        <p class=\"gridelement-post-date\">02.04.2024<\/p>\n                    <\/div>\n                <\/div>\n                <div class=\"review-section-card\">\n                    <div class=\"review-section-card-content\">\n                        <h2 class=\"review-section-card-title\">Entspannter Einkauf<\/h2>\n                        <div class=\"review-section-card-rating\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.fill.svg?v=1714304941\" alt=\"star\" class=\"review-section-card-star\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.fill.svg?v=1714304941\" alt=\"star\" class=\"review-section-card-star\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.fill.svg?v=1714304941\" alt=\"star\" class=\"review-section-card-star\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.leadinghalf.filled.svg?v=1714304941\" alt=\"star\" class=\"review-section-card-star\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.svg?v=1714304940\" alt=\"star\" class=\"review-section-card-star\">\n                        <\/div>\n                        <p class=\"review-section-card-name\">J. Stabler<\/p>\n                        <p class=\"review-section-card-text\">Ich habe hier kürzlich einen Helm gekauft. Er passt gut und sieht normal aus. Lieferung war recht schnell.<\/p>\n                        <p class=\"gridelement-post-date\">29.03.2024<\/p>\n                    <\/div>\n                <\/div>\n            <\/div>\n        <\/div>\n    <\/section>\n<\/body>\n<\/html>","color_scheme":"","padding_top":40,"padding_bottom":52}},"rich_text_Kt3KYn":{"type":"rich-text","blocks":{"button_KbFb7q":{"type":"button","settings":{"button_label":"Siehe mehr","button_link":"shopify:\/\/pages\/reviews","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["button_KbFb7q"],"custom_css":[".rich-text{border:none;}"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":0,"padding_bottom":0}},"multicolumn_UM8jw9":{"type":"multicolumn","blocks":{"column_C4EGFw":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Bildschirmfoto_2024-03-02_um_14.42.31.png","title":"","text":"","link_label":"Zu der Bewertung","link":"https:\/\/de.trustpilot.com\/reviews\/65bc91763d19c30b21748610"}},"column_ArLQBA":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Bildschirmfoto_2024-03-02_um_14.45.53.png","title":"","text":"","link_label":"Zu der Bewertung","link":"https:\/\/de.trustpilot.com\/reviews\/6596e80f31cd940c1681f5c5"}},"column_F8VDbb":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Bildschirmfoto_2024-03-02_um_14.48.19.png","title":"","text":"","link_label":"Zu der Bewertung","link":"https:\/\/de.trustpilot.com\/reviews\/65301bf3a30c9607d7062d4e"}},"column_FLQLeT":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Bildschirmfoto_2024-03-02_um_14.50.33.png","title":"","text":"","link_label":"Zu der Bewertung","link":"https:\/\/de.trustpilot.com\/reviews\/6218e978e0365cc27e79499e"}}},"block_order":["column_C4EGFw","column_ArLQBA","column_F8VDbb","column_FLQLeT"],"settings":{"title":"Bewertungen","heading_size":"h1","image_width":"full","image_ratio":"adapt","columns_desktop":2,"column_alignment":"center","background_style":"none","button_label":"Zu unserem Trustpilot","button_link":"https:\/\/de.trustpilot.com\/review\/rinosbike.eu","color_scheme":"","columns_mobile":"1","swipe_on_mobile":true,"padding_top":36,"padding_bottom":36}},"related-products":{"type":"related-products","settings":{"heading":"Siehe auch","heading_size":"h2","products_to_show":4,"columns_desktop":4,"color_scheme":"background-1","image_ratio":"adapt","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"columns_mobile":"2","padding_top":0,"padding_bottom":60}},"newsletter":{"type":"newsletter","blocks":{"heading":{"type":"heading","settings":{"heading":"Abonniere unseren Newsletter!","heading_size":"h2"}},"paragraph":{"type":"paragraph","settings":{"text":"<p>Erhalte als erstes Information über neue Produkte und erhalte exklusive Rabatte.<\/p>"}},"email-form":{"type":"email_form","settings":{}}},"block_order":["heading","paragraph","email-form"],"custom_css":[".newsletter__wrapper {border: none;}"],"settings":{"color_scheme":"inverse","full_width":true,"padding_top":16,"padding_bottom":0}}},"order":["1688563395a8c2c777","conversionbanner_w3U6b8","main","product_description_JzqWJN","1680593778598b9b08","custom_liquid_zNVXaz","rich_text_Kt3KYn","multicolumn_UM8jw9","related-products","newsletter"]}
+{
+  "sections": {
+    "1688563395a8c2c777": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "conversionbanner_w3U6b8": {
+      "type": "conversionbanner",
+      "settings": {
+        "quality_text": "Beste Qualität",
+        "payment_text": "Sicheres Bezahlen",
+        "delivery_text": "Schnelle Lieferung",
+        "return_text": "14 Tage Rückgabe"
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "body"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "custom_liquid_a3Kix4": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document<\/title>\n<\/head>\n<style>\n\n.section-1-container{\n    margin-top: 5px;\n    max-width: 250px;\n    display: grid;\n    grid-template-columns: 1fr 2fr;\n    border: 1px solid rgba(0, 0, 0, 0.1);\n    border-radius: 10px;\n\n}\n\n.icon-10{\n    padding-top: 19px;\n    padding-left: 20px;\n}\n\n.icon-20{\n    height: 30px;\n    width: auto;\n}\n\n.text-10{\n    font-size: 18px;\n    font-weight: bold;\n    color: black;\n    font-family: sans-serif;\n}\n\n.div-text-20{\n    margin-left: -10px;\n    padding-top: 1px;\n}\n\n<\/style>\n<body>\n    <section class=\"section-1\">\n        <div class=\"section-1-container\">\n            <div class=\"icon-10\">\n                <img class=\"icon-20\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/clock.arrow.circlepath_10x_2d3128b5-2db0-418a-9850-59e8acc047ad.png?v=1706298857\">\n            <\/div>\n            <div class=\"div-text-20\">\n                <p class=\"text-10\">2 Jahre Garantie<\/p>\n            <\/div>\n        <\/div>\n    <\/section>\n<\/body>\n<\/html>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Teilen"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "caption",
+        "rating",
+        "price",
+        "custom_liquid_a3Kix4",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "",
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "product_description_JzqWJN": {
+      "type": "product-description",
+      "settings": {
+      }
+    },
+    "1680593778598b9b08": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "custom_liquid_zNVXaz": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Review-section<\/title>\n<style>\n\n    .review-section-container{\n        max-width: 1200px;\n        margin-left: auto;\n        margin-right: auto;\n    }\n\n    .review-section-title{\n        font-size: 35px;\n        font-weight: 600;\n        margin-top: 50px;\n        margin-bottom: 50px;\n    }\n\n    .review-section-content{\n        max-width: 1200px;\n        margin-left: auto;\n        margin-right: auto;\n        display: grid;\n        grid-template-columns: repeat(3, 1fr);\n        column-gap: 25px;\n        row-gap: 25px;\n    }\n\n    .review-section-card{\n        padding: 25px;\n        padding-bottom: 5px;\n        min-height: 375px;\n        background-color: rgb(255, 255, 255);\n        border-radius: 15px;\n        border: 0.5px solid rgb(218, 218, 218);\n        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;\n        box-shadow: 0 0 15px -3px rgba(0,0,0,0.1);\n        -webkit-box-shadow: 0 0 15px -3px rgba(0,0,0,0.1);\n        -moz-box-shadow: 0 0 15px -3px rgba(0,0,0,0.1);\n        position: relative;\n    }\n\n    :hover.review-section-card{\n        box-shadow: 0 0 15px 2px rgba(0,0,0,0.3);\n        -webkit-box-shadow: 0 0 15px 2px rgba(0,0,0,0.3);\n        -moz-box-shadow: 0 0 15px 2px rgba(0,0,0,0.3);\n        transform: scale(1.05);\n    }\n\n    .review-section-card-title{\n        text-align: left;\n        font-size: 25px;\n        color: black;\n        font-weight: 600;\n        margin-bottom: 10px;\n    }\n\n    .review-section-card-star{\n        width: 25px;\n        height: 25px;\n    }\n\n    .review-section-card-name{\n        font-size: 20px;\n    }\n\n    .review-section-card-text{\n        font-size: 15px;\n        margin-top: -15px;\n    }\n\n    .gridelement-post-date {\n        position: absolute;\n        bottom: 10px;\n        left: 25px;\n        text-align: left;\n        color: gray;\n    }\n\n\n    @media screen and (max-width: 1200px){\n    .review-section-content{\n        row-gap: 15px;\n        column-gap: 15px;\n    }\n\n    .review-section-card-name{\n        font-size: 18px;\n    }\n\n    .review-section-card-text{\n        font-size: 13px;\n    }\n}\n\n@media screen and (max-width: 800px) {\n    .review-section-content {\n        grid-template-columns: repeat(2, 1fr);\n        margin-left: 10px;\n        margin-right: 10px;\n        column-gap: 10px;\n        row-gap: 10px;\n    }\n\n    .gridelement-post-date {\n        \/* Adjust styles here for smaller screens *\/\n        font-size: 0.8em;\n        bottom: 10px;\n    }\n\n    .review-section-card-text {\n        \/* Adjust styles here for smaller screens *\/\n        font-size: 0.9em;\n    }\n\n    .review-section-card-title{\n        font-size: 22.5px;\n    }\n\n    .review-section-title{\n        font-size: 30px;\n        font-weight: 600;\n        margin-top: 50px;\n        margin-bottom: 50px;\n        margin-left: 20px;\n    }\n\n    :hover.review-section-card{\n        box-shadow: 0 0 15px 2px rgba(0,0,0,0.3);\n        -webkit-box-shadow: 0 0 15px 2px rgba(0,0,0,0.3);\n        -moz-box-shadow: 0 0 15px 2px rgba(0,0,0,0.3);\n        transform: scale(1.01);\n    }\n\n}\n\n@media screen and (max-width: 500px) {\n    .review-section-content {\n        grid-template-columns: repeat(1, 1fr);\n        margin-left: 10px;\n        margin-right: 10px;\n        column-gap: 10px;\n        row-gap: 10px;\n    }\n\n    \n}\n<\/style>\n<\/head>\n<body>\n    <section class=\"review-section\">\n        <div class=\"review-section-container\">\n            <h1 class=\"review-section-title\">Was unser Kunden sagen<\/h1>\n            <div class=\"review-section-content\">\n                <div class=\"review-section-card\">\n                    <div class=\"review-section-card-content\">\n                        <h2 class=\"review-section-card-title\">Kann man machen<\/h2>\n                        <div class=\"review-section-card-rating\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.fill.svg?v=1714304941\" alt=\"star\" class=\"review-section-card-star\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.fill.svg?v=1714304941\" alt=\"star\" class=\"review-section-card-star\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.fill.svg?v=1714304941\" alt=\"star\" class=\"review-section-card-star\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.fill.svg?v=1714304941\" alt=\"star\" class=\"review-section-card-star\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.leadinghalf.filled.svg?v=1714304941\" alt=\"star\" class=\"review-section-card-star\">\n                        <\/div>\n                        <p class=\"review-section-card-name\">Hans Müller<\/p>\n                        <p class=\"review-section-card-text\">Ich habe ein Faltrad gekauft und bin sehr zufrieden mit dem Erlebnis. Das Fahrrad selbst ist von hoher Qualität und erfüllt alle meine Erwartungen. Ich kann den Shop nur empfehlen!<\/p>\n                        <p class=\"gridelement-post-date\">04.04.2024<\/p>\n                    <\/div>\n                <\/div>\n                <div class=\"review-section-card\">\n                    <div class=\"review-section-card-content\">\n                        <h2 class=\"review-section-card-title\">Lieferung und Produkt ok👍<\/h2>\n                        <div class=\"review-section-card-rating\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.fill.svg?v=1714304941\" alt=\"star\" class=\"review-section-card-star\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.fill.svg?v=1714304941\" alt=\"star\" class=\"review-section-card-star\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.fill.svg?v=1714304941\" alt=\"star\" class=\"review-section-card-star\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.svg?v=1714304940\" alt=\"star\" class=\"review-section-card-star\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.svg?v=1714304940\" alt=\"star\" class=\"review-section-card-star\">\n                        <\/div>\n                        <p class=\"review-section-card-name\">L. Schneider<\/p>\n                        <p class=\"review-section-card-text\">Ich habe kürzlich einen Shimano Schalthebel von diesem Shop erworben. Der Schalthebel erfüllt seine Funktion und die Qualität ist solide.<\/p>\n                        <p class=\"gridelement-post-date\">02.04.2024<\/p>\n                    <\/div>\n                <\/div>\n                <div class=\"review-section-card\">\n                    <div class=\"review-section-card-content\">\n                        <h2 class=\"review-section-card-title\">Entspannter Einkauf<\/h2>\n                        <div class=\"review-section-card-rating\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.fill.svg?v=1714304941\" alt=\"star\" class=\"review-section-card-star\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.fill.svg?v=1714304941\" alt=\"star\" class=\"review-section-card-star\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.fill.svg?v=1714304941\" alt=\"star\" class=\"review-section-card-star\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.leadinghalf.filled.svg?v=1714304941\" alt=\"star\" class=\"review-section-card-star\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/star.svg?v=1714304940\" alt=\"star\" class=\"review-section-card-star\">\n                        <\/div>\n                        <p class=\"review-section-card-name\">J. Stabler<\/p>\n                        <p class=\"review-section-card-text\">Ich habe hier kürzlich einen Helm gekauft. Er passt gut und sieht normal aus. Lieferung war recht schnell.<\/p>\n                        <p class=\"gridelement-post-date\">29.03.2024<\/p>\n                    <\/div>\n                <\/div>\n            <\/div>\n        <\/div>\n    <\/section>\n<\/body>\n<\/html>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_Kt3KYn": {
+      "type": "rich-text",
+      "blocks": {
+        "button_KbFb7q": {
+          "type": "button",
+          "settings": {
+            "button_label": "Siehe mehr",
+            "button_link": "shopify:\/\/pages\/reviews",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_KbFb7q"
+      ],
+      "custom_css": [
+        ".rich-text {border: none;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_UM8jw9": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_C4EGFw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bildschirmfoto_2024-03-02_um_14.42.31.png",
+            "title": "",
+            "text": "",
+            "link_label": "Zu der Bewertung",
+            "link": "https:\/\/de.trustpilot.com\/reviews\/65bc91763d19c30b21748610"
+          }
+        },
+        "column_ArLQBA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bildschirmfoto_2024-03-02_um_14.45.53.png",
+            "title": "",
+            "text": "",
+            "link_label": "Zu der Bewertung",
+            "link": "https:\/\/de.trustpilot.com\/reviews\/6596e80f31cd940c1681f5c5"
+          }
+        },
+        "column_F8VDbb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bildschirmfoto_2024-03-02_um_14.48.19.png",
+            "title": "",
+            "text": "",
+            "link_label": "Zu der Bewertung",
+            "link": "https:\/\/de.trustpilot.com\/reviews\/65301bf3a30c9607d7062d4e"
+          }
+        },
+        "column_FLQLeT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bildschirmfoto_2024-03-02_um_14.50.33.png",
+            "title": "",
+            "text": "",
+            "link_label": "Zu der Bewertung",
+            "link": "https:\/\/de.trustpilot.com\/reviews\/6218e978e0365cc27e79499e"
+          }
+        }
+      },
+      "block_order": [
+        "column_C4EGFw",
+        "column_ArLQBA",
+        "column_F8VDbb",
+        "column_FLQLeT"
+      ],
+      "settings": {
+        "title": "Bewertungen",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Zu unserem Trustpilot",
+        "button_link": "https:\/\/de.trustpilot.com\/review\/rinosbike.eu",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_y4RFQj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Q7VfdG": {
+          "type": "heading",
+          "settings": {
+            "heading": "lol",
+            "heading_size": "h1"
+          }
+        },
+        "text_8MjkEQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button_3kGehm": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Q7VfdG",
+        "text_8MjkEQ",
+        "button_3kGehm"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "Siehe auch",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Abonniere unseren Newsletter!",
+            "heading_size": "h2"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Erhalte als erstes Information über neue Produkte und erhalte exklusive Rabatte.<\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "custom_css": [
+        ".newsletter__wrapper {border: none;}"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "1688563395a8c2c777",
+    "conversionbanner_w3U6b8",
+    "main",
+    "product_description_JzqWJN",
+    "1680593778598b9b08",
+    "custom_liquid_zNVXaz",
+    "rich_text_Kt3KYn",
+    "multicolumn_UM8jw9",
+    "rich_text_y4RFQj",
+    "related-products",
+    "newsletter"
+  ]
+}
