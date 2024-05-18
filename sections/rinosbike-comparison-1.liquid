@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .section-11-table {
+                width: 100%;
+                border-collapse: collapse;
+                font-family: sans-serif;
+            }
+            
+            .section-11-th, .section-11-td {
+                padding: 15px 30px;
+                text-align: left;
+                border-bottom: 1px solid #4b4b4b;
+            }
+            
+            .section-11-th {
+                border-bottom: 1px solid #4b4b4b;
+            }
+            
+            .section-11-td {
+                color:  #4b4b4b;
+            }
+            
+            .section-11-td-1 {
+                padding: 1px;
+                text-align: left;
+                border-bottom: 1px solid #4b4b4b;
+                color:  #4b4b4b;
+            }
+            
+            .section-11-img {
+                max-width: 175px;
+            }
+    
+            .section-11-img-1 {
+                max-width: 159px;
+            }
+            
+            .section-11 {
+                margin-top: 15px;
+            }
+            
+            .section-11-container {
+                max-width: 1400px;
+                margin: auto;
+            }
+            
+            .section-11-text {
+                font-size: 15px;
+                font-weight: 500;
+                color: #4b4b4b;
+            }
+    
+            .section-4-h1{
+                text-transform: uppercase;
+                font-style: bold;
+                font-size: 25px;
+            }
+    
+            /* Responsive styles */
+            @media (max-width: 768px) {
+                .section-11-th, .section-11-td {
+                    padding: 8px 15px;
+                    font-size: 14px;
+                }
+                
+                .section-11-img {
+                    max-width: 100px;
+                }
+    
+                .section-11-img-1 {
+                    max-width: 90px;
+                }
+                
+                .section-11-text {
+                    font-size: 12px;
+                }
+    
+                .section-4-h1{
+                    font-size: 15px;
+                }
+    
+                .section-11-td-1{
+                    font-size: 12px;
+                }
+    
+                .section-11-td{
+                    font-size: 12px;
+                }
+            }
+    
+            @media screen and (max-width: 480px) {
+                .section-11-th, .section-11-td {
+                    padding: 5px 10px;
+                    font-size: 12px;
+                }
+    
+                .section-11-img {
+                    max-width: 75px;
+                }
+    
+                .section-11-text {
+                    font-size: 10px;
+                }
+    
+                .section-4-h1{
+                    font-size: 12px;
+                }
+    
+                .section-11-td-1{
+                    font-size: 10px;
+                }
+    
+                .section-11-td{
+                    font-size: 10px;
+                }
+            }
+    
+            /* Scrollable table wrapper */
+            .scrollable-table-wrapper {
+                overflow-x: auto;
+                width: 100%;
+            }
+        </style>
+    </head>
+<body>
+    <section class="section-11">
+        <div class="section-11-container">
+            <div class="scrollable-table-wrapper">
+                <table class="section-11-table">
+                    <thead class="section-11-thead">
+                        <tr class="section-11-tr">
+                            <th class="section-11-th"></th>
+                            <th class="section-11-th">
+                                <img class="section-11-img" src="{{ 'bikes.sandman1.image' | t }}">
+                                <div class="section-4-h1">{{ 'bikes.sandman1.title' | t }}</div>
+                                <div class="section-11-text">
+                                    {{ 'bikes.sandman1.description' | t }}
+                                </div>
+                            </th>
+                            <th class="section-11-th">
+                                <img class="section-11-img" src="{{ 'bikes.sandman1.image' | t }}">
+                                <div class="section-4-h1">{{ 'bikes.sandman2.title' | t }}</div>
+                                <div class="section-11-text">
+                                    {{ 'bikes.sandman2.description' | t }}
+                                </div>
+                            </th>
+                            <!-- Add more th blocks for additional bikes as needed -->
+                        </tr>
+                    </thead>
+                    <tbody class="section-11-tbody">
+                        <tr class="section-11-tr">
+                            <td class="section-11-td-1">{{ 'bikes.weight_label' | t }}</td>
+                            <td class="section-11-td">{{ 'bikes.sandman1.weight' | t }}</td>
+                            <td class="section-11-td">{{ 'bikes.sandman2.weight' | t }}</td>
+                            <!-- More td for additional bikes -->
+                        </tr>
+                        <tr class="section-11-tr">
+                            <td class="section-11-td-1">{{ 'bikes.gear_label' | t }}</td>
+                            <td class="section-11-td">{{ 'bikes.sandman1.gear' | t }}</td>
+                            <td class="section-11-td">{{ 'bikes.sandman2.gear' | t }}</td>
+                            <!-- More td for additional bikes -->
+                        </tr>
+                        <tr class="section-11-tr">
+                            <td class="section-11-td-1">{{ 'bikes.gears_label' | t }}</td>
+                            <td class="section-11-td">{{ 'bikes.sandman1.gears' | t }}</td>
+                            <td class="section-11-td">{{ 'bikes.sandman2.gears' | t }}</td>
+                            <!-- More td for additional bikes -->
+                        </tr>
+                        <tr class="section-11-tr">
+                            <td class="section-11-td-1">{{ 'bikes.frame_label' | t }}</td>
+                            <td class="section-11-td">{{ 'bikes.sandman1.frame' | t }}</td>
+                            <td class="section-11-td">{{ 'bikes.sandman2.frame' | t }}</td>
+                            <!-- More td for additional bikes -->
+                        </tr>
+                        <tr class="section-11-tr">
+                            <td class="section-11-td-1">{{ 'bikes.frameSize_label' | t }}</td>
+                            <td class="section-11-td">{{ 'bikes.sandman1.frameSize' | t }}</td>
+                            <td class="section-11-td">{{ 'bikes.sandman2.frameSize' | t }}</td>
+                            <!-- More td for additional bikes -->
+                        </tr>
+                        <tr class="section-11-tr">
+                            <td class="section-11-td-1">{{ 'bikes.brakes_label' | t }}</td>
+                            <td class="section-11-td">{{ 'bikes.sandman1.brakes' | t }}</td>
+                            <td class="section-11-td">{{ 'bikes.sandman2.brakes' | t }}</td>
+                            <!-- More td for additional bikes -->
+                        </tr>
+                        <tr class="section-11-tr">
+                            <td class="section-11-td-1">{{ 'bikes.wheelSize_label' | t }}</td>
+                            <td class="section-11-td">{{ 'bikes.sandman1.wheelSize' | t }}</td>
+                            <td class="section-11-td">{{ 'bikes.sandman2.wheelSize' | t }}</td>
+                            <!-- More td for additional bikes -->
+                        </tr>
+                        <tr class="section-11-tr">
+                            <td class="section-11-td-1">{{ 'bikes.rims_label' | t }}</td>
+                            <td class="section-11-td">{{ 'bikes.sandman1.rims' | t }}</td>
+                            <td class="section-11-td">{{ 'bikes.sandman2.rims' | t }}</td>
+                            <!-- More td for additional bikes -->
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+{% schema %}
+  {
+    "presets": [
+        {
+            "name": "Rinosbike-Comparison",
+            "category": "Custom"
+        }
+    ]
+}
+{% endschema %}
