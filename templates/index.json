@@ -499,6 +499,10 @@
     },
     "dd888640-dd1e-4391-87e5-9ca416b82757": {
       "type": "featured-blog",
+      "custom_css": [
+        ".card{max-height: 350px; overflow: hidden;}",
+        ".card--text{max-height: 340px}"
+      ],
       "settings": {
         "heading": "Interessante Themen",
         "heading_size": "h1",
@@ -506,7 +510,7 @@
         "post_limit": 3,
         "columns_desktop": 3,
         "color_scheme": "background-1",
-        "show_image": true,
+        "show_image": false,
         "show_date": true,
         "show_author": false,
         "show_view_all": true,
