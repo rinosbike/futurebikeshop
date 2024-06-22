@@ -9,14 +9,6 @@
 */
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 28
-      }
-    },
     "171904312110aafacd": {
       "type": "apps",
       "blocks": {
@@ -39,10 +31,18 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
     }
   },
   "order": [
-    "main",
-    "171904312110aafacd"
+    "171904312110aafacd",
+    "main"
   ]
 }
