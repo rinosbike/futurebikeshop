@@ -70,6 +70,18 @@
             "swatch_shape": "circle"
           }
         },
+        "klarna_on_site_messaging_app_block_UipVf8": {
+          "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+          "settings": {
+            "data_key": "top-strip-promotion-badge",
+            "locale_option": "geolocation",
+            "locale_fallback": "",
+            "theme": "default",
+            "topPadding": "0",
+            "bottomPadding": "0",
+            "messagePrefix": ""
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -97,6 +109,7 @@
         "price",
         "custom_liquid_a3Kix4",
         "variant_picker",
+        "klarna_on_site_messaging_app_block_UipVf8",
         "quantity_selector",
         "buy_buttons",
         "share"
