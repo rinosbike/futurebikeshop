@@ -11,48 +11,38 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 28
       }
     },
-    "newsletter": {
-      "type": "newsletter",
+    "171904312110aafacd": {
+      "type": "apps",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "klarna_on_site_messaging_app_block_94Ryjj": {
+          "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
           "settings": {
-            "heading": "Abonniere unseren Newsletter!",
-            "heading_size": "h2"
-          }
-        },
-        "paragraph": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Erhalte als erstes Information über neue Produkte und erhalte exklusive Rabatte.<br\/><\/p>"
-          }
-        },
-        "email-form": {
-          "type": "email_form",
-          "settings": {
+            "data_key": "info-page",
+            "locale_option": "geolocation",
+            "locale_fallback": "",
+            "theme": "default",
+            "topPadding": "0",
+            "bottomPadding": "0",
+            "messagePrefix": ""
           }
         }
       },
       "block_order": [
-        "heading",
-        "paragraph",
-        "email-form"
+        "klarna_on_site_messaging_app_block_94Ryjj"
       ],
       "settings": {
-        "color_scheme": "accent-2",
-        "full_width": true,
-        "padding_top": 60,
-        "padding_bottom": 0
+        "include_margins": true
       }
     }
   },
   "order": [
     "main",
-    "newsletter"
+    "171904312110aafacd"
   ]
 }
