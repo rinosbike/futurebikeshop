@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_banner_gdQcRN": {
@@ -238,6 +247,32 @@
         "swipe_on_mobile": true,
         "padding_top": 60,
         "padding_bottom": 40
+      }
+    },
+    "171904257122112173": {
+      "type": "apps",
+      "blocks": {
+        "klarna_on_site_messaging_app_block_zjiDYB": {
+          "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+          "settings": {
+            "data_key": "homepage-promotion-wide",
+            "locale_option": "geolocation",
+            "locale_fallback": "",
+            "theme": "default",
+            "topPadding": "0",
+            "bottomPadding": "0",
+            "messagePrefix": ""
+          }
+        }
+      },
+      "block_order": [
+        "klarna_on_site_messaging_app_block_zjiDYB"
+      ],
+      "custom_css": [
+        "div {max-width: 800px;}"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "rich_text_Xi8YyB": {
@@ -500,8 +535,8 @@
     "dd888640-dd1e-4391-87e5-9ca416b82757": {
       "type": "featured-blog",
       "custom_css": [
-        ".card{max-height: 350px; overflow: hidden;}",
-        ".card--text{max-height: 340px}"
+        ".card {max-height: 350px; overflow: hidden;}",
+        ".card--text {max-height: 340px;}"
       ],
       "settings": {
         "heading": "Interessante Themen",
@@ -563,6 +598,7 @@
     "1661761487098b044c",
     "168059407832eb5b3b",
     "featured-collection-0",
+    "171904257122112173",
     "rich_text_Xi8YyB",
     "ec63b00b-8548-484e-a3e8-f9fe6fad95e0",
     "image-with-text-0",
