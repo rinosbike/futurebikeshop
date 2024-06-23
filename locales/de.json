@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "password_page": {
@@ -694,7 +703,7 @@
     "sandman4": {
       "title": "Sandman 4.0",
       "description": "Unser Bestseller",
-      "image": "https://cdn.shopify.com/s/files/1/0657/8415/2277/files/sandman4-6-changed.webp?v=1716034595",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/sandman4-6-changed.webp?v=1716034595",
       "weight": "9,8kg",
       "gear": "Shimano GRX 400",
       "gears": "20",
@@ -720,7 +729,7 @@
     "sandman6": {
       "title": "Sandman 6.0",
       "description": "Das Beste seiner Art",
-      "image": "https://cdn.shopify.com/s/files/1/0657/8415/2277/files/sandman4-6-changed.webp?v=1716034595",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/sandman4-6-changed.webp?v=1716034595",
       "weight": "9,8kg",
       "gear": "Shimano GRX 600",
       "gears": "22",
@@ -733,7 +742,7 @@
     "sandman7": {
       "title": "Sandman 7.0",
       "description": "Top of the Line",
-      "image": "https://cdn.shopify.com/s/files/1/0657/8415/2277/files/sandman4-6-changed.webp?v=1716034595",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/sandman4-6-changed.webp?v=1716034595",
       "weight": "9.6kg",
       "gear": "Shimano GRX 820",
       "gears": "24",
