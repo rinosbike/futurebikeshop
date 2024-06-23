@@ -87,13 +87,6 @@
           "settings": {
             "share_label": "Teilen"
           }
-        },
-        "popup_xfNGjW": {
-          "type": "popup",
-          "settings": {
-            "text": "Pop-up link text",
-            "page": "fahrradservice"
-          }
         }
       },
       "block_order": [
@@ -106,8 +99,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "share",
-        "popup_xfNGjW"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
