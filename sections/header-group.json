@@ -26,8 +26,8 @@
         "83d86462-52c9-46ef-93fc-feded9979a7e"
       ],
       "custom_css": [
-        ".announcement-bar {border: 2px solid #ff9500; border-bottom: none; border-top-left-radius: 25px; border-top-right-radius: 25px; padding: 2.5px 5px; margin-top: 2.5px;}",
-        ".utility-bar--bottom-border{border: none;}"
+        ".announcement-bar {border: 2px solid #ff9500; border-bottom: none; border-top-left-radius: 25px; border-top-right-radius: 25px; padding: 2.5px 5px; margin-top: 5px;}",
+        ".utility-bar--bottom-border {border: none;}"
       ],
       "settings": {
         "color_scheme": "background-1",
