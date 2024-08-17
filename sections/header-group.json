@@ -68,7 +68,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".header {margin-top: 10px; border: 1.5px solid #dee2e6; border-radius: 25px; padding: 10px 20px; box-shadow: 1px 18px 48px -29px rgba(0, 0, 0, 0.52); -webkit-box-shadow: 1px 18px 48px -29px rgba(0, 0, 0, 0.52); -moz-box-shadow: 1px 18px 48px -29px rgba(0, 0, 0, 0.52);}",
+        ".header {margin-top: 10px; margin-bottom: 10px; border: 1.5px solid #dee2e6; border-radius: 25px; padding: 10px 20px; box-shadow: 1px 18px 48px -29px rgba(0, 0, 0, 0.52); -webkit-box-shadow: 1px 18px 48px -29px rgba(0, 0, 0, 0.52); -moz-box-shadow: 1px 18px 48px -29px rgba(0, 0, 0, 0.52);}",
         ".header__heading-logo {border-radius: 10px;}"
       ],
       "settings": {
