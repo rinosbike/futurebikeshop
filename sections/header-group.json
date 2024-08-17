@@ -25,8 +25,11 @@
       "block_order": [
         "83d86462-52c9-46ef-93fc-feded9979a7e"
       ],
+      "custom_css": [
+        ".announcement-bar {border: 3px solid #ff9500; border-bottom: none; border-top-left-radius: 25px; border-top-right-radius: 25px; padding: 2.5px 5px; margin-top: 2.5px;}"
+      ],
       "settings": {
-        "color_scheme": "inverse",
+        "color_scheme": "background-1",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": false,
@@ -49,8 +52,11 @@
       "block_order": [
         "sections--19927768400218__2d681766-f542-4cef-836f-b933162a4134-announcement-1"
       ],
+      "custom_css": [
+        ".announcement-bar {border: 3px solid #ff9500; border-top: none; border-bottom-left-radius: 25px; border-bottom-right-radius: 25px; padding: 2.5px 5px;}"
+      ],
       "settings": {
-        "color_scheme": "inverse",
+        "color_scheme": "background-1",
         "show_line_separator": false,
         "show_social": false,
         "auto_rotate": false,
