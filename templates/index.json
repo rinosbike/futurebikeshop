@@ -9,8 +9,57 @@
 */
 {
   "sections": {
+    "image_banner_qFndRF": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_VGe3Q6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_pFTFT9": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_9bWB3g": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_VGe3Q6",
+        "text_pFTFT9",
+        "buttons_9bWB3g"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/0_13c81242-6598-42ea-9d01-b8f8ae62ac3e.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "custom_liquid_ebArLJ": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document<\/title>\n<style>\n.body-class-2 {\n    width: 100%;\n    height: 100%;\n    margin: 0;\n    padding: 0;\n}\n.FBS-ban-sec1 {\n    position: relative;\n    height: 100vh; \/* Adjust based on your needs *\/\n    overflow: hidden;\n}\n.background-video {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    position: absolute;\n    top: 0;\n    left: 0;\n}\n.content-overlay {\n    position: absolute;\n    top: 0;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-direction: column;\n    text-align: center;\n}\n.content-overlay a {\n    display: inline-block;\n    padding: 15px 25px;\n    background-color: #000000;\n    color: white;\n    text-decoration: none;\n    border-radius: 10px;\n    font-size: 20px;\n    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    border: solid 2px transparent;\n    transition: all 0.15s ease-in-out;\n}\n\n.content-overlay a:hover {\n    background-color: #ffffff;\n    color: #000000;\n    border: solid 2px #000000;\n    transform: scale(1.02);\n    box-shadow: 0 0 15px 2px rgba(0,0,0,0.3);\n            -webkit-box-shadow: 0 0 15px 2px rgba(0,0,0,0.3);\n            -moz-box-shadow: 0 0 15px 2px rgba(0,0,0,0.3);\n}\n\n.content-overlay-text {\n    font-size: 35px;\n    margin-top: 50px;\n    color: rgb(0, 0, 0);\n    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    font-weight: 600;\n    \n}\n\n.video-overlay {\n    position: absolute;\n    top: 0;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    background: rgba(0, 0, 0, 0.138); \/* Adjust the last value (opacity) as needed *\/\n}\n\n@media (max-width: 768px) {\n    .background-video {\n        height: 50vh; \/* Reduce video height on mobile *\/\n    }\n    .content-overlay a {\n        padding: 10px 20px; \/* Make the button a little smaller *\/\n        font-size: 16px; \/* Reduce font size for the button *\/\n    }\n    .content-overlay-text {\n        font-size: 24px; \/* Reduce the text size *\/\n        margin-top: 20px; \/* Adjust top margin if necessary *\/\n        padding: 10px;\n    }\n\n    .FBS-ban-sec1{\n        margin-bottom: -250px;\n    \n    }\n}\n<\/style>\n<\/head>\n<body class=\"body-class-2\">\n    <section class=\"FBS-ban-sec1\">\n        <video class=\"background-video\" autoplay loop muted playsinline>\n            <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0ee019d247524838a35002cbd8a1823b.mp4\" type=\"video\/mp4\">\n            Your browser does not support the video tag.\n        <\/video>\n        <div class=\"video-overlay\"><\/div>\n        <div class=\"content-overlay\">\n            <h1 class=\"content-overlay-text\">Entdecke die Komponenten von unserem neuem Gravelbike!<\/h1>\n            <a href=\"https:\/\/futurebikeshop.de\/products\/rinos-carbon-gravel-bike-sandman4-0-shimano-grx-400\" target=\"_blank\">Informiere dich<\/a>\n        <\/div>\n    <\/section>\n<\/body>\n<\/html>",
         "color_scheme": "",
@@ -572,6 +621,7 @@
     }
   },
   "order": [
+    "image_banner_qFndRF",
     "custom_liquid_ebArLJ",
     "multicolumn_i9gnYy",
     "image_banner_gdQcRN",
