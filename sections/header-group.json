@@ -1,1 +1,90 @@
-{"name":"t:sections.header.name","type":"header","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"83d86462-52c9-46ef-93fc-feded9979a7e":{"type":"announcement","settings":{"text":"2024 NEUES MODELL | Sparen Sie bis zu 300 € bei Gravel Bikes | Kostenloser Versand","link":"shopify:\/\/collections\/gravelbikes"}}},"block_order":["83d86462-52c9-46ef-93fc-feded9979a7e"],"settings":{"color_scheme":"inverse","show_line_separator":true,"show_social":false,"auto_rotate":false,"change_slides_speed":5,"enable_country_selector":false,"enable_language_selector":false}},"2d681766-f542-4cef-836f-b933162a4134":{"type":"announcement-bar","blocks":{"sections--19927768400218__2d681766-f542-4cef-836f-b933162a4134-announcement-1":{"type":"announcement","settings":{"text":"Sehen Sie mehr als 130 Bewertungen auf Trustpilot","link":"https:\/\/de.trustpilot.com\/review\/rinosbike.eu?utm_medium=trustbox&utm_source=MicroReviewCount"}}},"block_order":["sections--19927768400218__2d681766-f542-4cef-836f-b933162a4134-announcement-1"],"settings":{"color_scheme":"inverse","show_line_separator":false,"show_social":false,"auto_rotate":false,"change_slides_speed":5,"enable_country_selector":false,"enable_language_selector":false}},"header":{"type":"header","settings":{"logo_position":"middle-left","menu":"new-hauptmenu","menu_type_desktop":"dropdown","sticky_header_type":"on-scroll-up","show_line_separator":false,"color_scheme":"background-1","menu_color_scheme":"","enable_country_selector":false,"enable_language_selector":false,"mobile_logo_position":"center","margin_bottom":0,"padding_top":20,"padding_bottom":8}}},"order":["announcement-bar","2d681766-f542-4cef-836f-b933162a4134","header"]}
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "83d86462-52c9-46ef-93fc-feded9979a7e": {
+          "type": "announcement",
+          "settings": {
+            "text": "2024 NEUES MODELL | Sparen Sie bis zu 300 € bei Gravel Bikes | Kostenloser Versand",
+            "link": "shopify:\/\/collections\/gravelbikes"
+          }
+        }
+      },
+      "block_order": [
+        "83d86462-52c9-46ef-93fc-feded9979a7e"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
+    "2d681766-f542-4cef-836f-b933162a4134": {
+      "type": "announcement-bar",
+      "blocks": {
+        "sections--19927768400218__2d681766-f542-4cef-836f-b933162a4134-announcement-1": {
+          "type": "announcement",
+          "settings": {
+            "text": "Sehen Sie mehr als 130 Bewertungen auf Trustpilot",
+            "link": "https:\/\/de.trustpilot.com\/review\/rinosbike.eu?utm_medium=trustbox&utm_source=MicroReviewCount"
+          }
+        }
+      },
+      "block_order": [
+        "sections--19927768400218__2d681766-f542-4cef-836f-b933162a4134-announcement-1"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "show_line_separator": false,
+        "show_social": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "custom_css": [
+        ".header {margin: 10px; border: 1px solid #adb5bd; border-radius: 25px; padding: 10px 20px;}",
+        ".header__heading-logo {border-radius: 10px;}"
+      ],
+      "settings": {
+        "logo_position": "middle-left",
+        "menu": "new-hauptmenu",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": false,
+        "color_scheme": "background-1",
+        "menu_color_scheme": "",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 8
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "2d681766-f542-4cef-836f-b933162a4134",
+    "header"
+  ]
+}
