@@ -2098,6 +2098,13 @@ product-info .loading__spinner:not(.hidden) ~ *,
   }
 }
 
+@media screen and (max-width: 8000px) {
+  .utility-bar{
+    visibility: hidden;
+  }
+  
+}
+
 .utility-bar .list-social__item .icon {
   scale: 0.9;
 }
