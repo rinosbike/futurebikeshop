@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+    <style>
+    
+    .FBS-sec-1 {
+        max-width: 1000px;
+        margin: auto;
+        font-family: "New Amsterdam", sans-serif;
+        font-style: italic;
+    }
+    
+    .sec-1-overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .sec-1-h1{
+        font-size: 80px;
+        color: white;
+    }
+    
+    .sec-1-p{
+        font-size: 50px;
+        color: white;
+        margin-top: -50px;
+    }
+    
+    .sec-1-button{
+        display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      border: 0;
+      padding: 0 3rem;
+      cursor: pointer;
+      font: inherit;
+      font-size: 1.5rem;
+      text-decoration: none;
+      color: rgb(var(--color-button-text));
+      transition: box-shadow var(--duration-short) ease;
+      -webkit-appearance: none;
+      appearance: none;
+      background-color: rgba(var(--color-button), var(--alpha-button-background));
+    }
+    
+    .sec-1-img{
+        max-width: 1000px;
+    }
+    </style>
+    </head>
+    <body>
+        <div class="FBS-sec-1">
+            <div class="sec-1-div">
+                <img src="https://cdn.shopify.com/s/files/1/0720/5794/6377/files/Gaia2_Fotoshooting_Slubice_Forest2_c7c24f41-967d-48b2-b227-3f7b5f498c20.jpg?v=1724494193" class="sec-1-img">
+                <div class="sec-1-overlay">
+                    <h1 class="sec-1-h1">Entdecke das neue RINOS MTB</h1>
+                    <p class="sec-1-p">Einzigartig günstiger Preis!</p>
+                    <a href="#" class="button button__primary">
+                        <div class="banner__buttons">
+                            <p class="sec-1-button-p">Jetzt kaufen</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+
+
+{% schema %}
+  {
+    "presets": [
+        {
+            "name": "home-sec1",
+            "category": "Custom"
+        }
+    ]
+}
+{% endschema %}
