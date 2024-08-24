@@ -33,7 +33,7 @@ menu-drawer > details[open] > summary::before {
   z-index: 3;
   left: 0;
   top: 100%;
-  width: 100%;
+  width: 90%;
   padding: 0;
   border-radius: 25px;
   margin-top: 10px;
