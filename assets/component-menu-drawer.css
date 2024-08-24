@@ -33,7 +33,7 @@ menu-drawer > details[open] > summary::before {
   left: 0;
   top: 100%;
   width: 100%;
-  padding: 10px;
+  padding: 0;
   border-radius: 25px;
   background-color: rgb(var(--color-background));
   overflow-x: hidden;
@@ -75,6 +75,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 .menu-drawer__inner-container {
   position: relative;
   height: 100%;
+  padding: 10px;
 }
 
 .menu-drawer__navigation-container {
