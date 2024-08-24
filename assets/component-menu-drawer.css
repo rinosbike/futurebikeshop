@@ -38,6 +38,7 @@ menu-drawer > details[open] > summary::before {
   border-radius: 25px;
   margin-top: 10px;
   margin-left: 5px;
+  margin-bottom: 10px;
   background-color: rgb(var(--color-background));
   overflow-x: hidden;
   filter: drop-shadow(
