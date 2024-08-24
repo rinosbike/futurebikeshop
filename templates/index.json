@@ -11,6 +11,7 @@
   "sections": {
     "home_sec1_pTEdB9": {
       "type": "home-sec1",
+      "disabled": true,
       "settings": {
       }
     },
