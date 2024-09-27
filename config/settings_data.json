@@ -63,7 +63,7 @@
     "blog_card_corner_radius": 6,
     "blog_card_shadow_opacity": 0,
     "text_boxes_border_thickness": 2,
-    "text_boxes_border_opacity": 100,
+    "text_boxes_border_opacity": 0,
     "text_boxes_radius": 6,
     "text_boxes_shadow_opacity": 0,
     "text_boxes_shadow_horizontal_offset": 0,
