@@ -22,22 +22,23 @@
         "quality_text": "Beste Qualität",
         "payment_text": "Sicheres Bezahlen",
         "delivery_text": "Schnelle Lieferung",
-        "return_text": "14 Tage Rückgabe"
+        "return_text": "14 Tage Rückgabe",
+        "support_text": "Lebenslanger Support"
       }
     },
     "main": {
       "type": "main-product",
       "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
         "vendor": {
           "type": "text",
           "settings": {
             "text": "{{ product.vendor }}",
             "text_style": "body"
-          }
-        },
-        "title": {
-          "type": "title",
-          "settings": {
           }
         },
         "caption": {
@@ -57,10 +58,16 @@
           "settings": {
           }
         },
-        "custom_liquid_a3Kix4": {
-          "type": "custom_liquid",
+        "icon_with_text_rpQXWC": {
+          "type": "icon-with-text",
           "settings": {
-            "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document<\/title>\n<\/head>\n<style>\n\n.section-1-container{\n    margin-top: 5px;\n    max-width: 250px;\n    display: grid;\n    grid-template-columns: 1fr 2fr;\n    border: 1px solid rgba(0, 0, 0, 0.1);\n    border-radius: 10px;\n\n}\n\n.icon-10{\n    padding-top: 19px;\n    padding-left: 20px;\n}\n\n.icon-20{\n    height: 30px;\n    width: auto;\n}\n\n.text-10{\n    font-size: 18px;\n    font-weight: bold;\n    color: black;\n    font-family: sans-serif;\n}\n\n.div-text-20{\n    margin-left: -10px;\n    padding-top: 1px;\n}\n\n<\/style>\n<body>\n    <section class=\"section-1\">\n        <div class=\"section-1-container\">\n            <div class=\"icon-10\">\n                <img class=\"icon-20\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/clock.arrow.circlepath_10x_2d3128b5-2db0-418a-9850-59e8acc047ad.png?v=1706298857\">\n            <\/div>\n            <div class=\"div-text-20\">\n                <p class=\"text-10\">2 Jahre Garantie<\/p>\n            <\/div>\n        <\/div>\n    <\/section>\n<\/body>\n<\/html>"
+            "layout": "vertical",
+            "icon_1": "box",
+            "heading_1": "<a href=\"/policies/shipping-policy\" title=\"Shipping Policy\">Versandinformationen</a>",
+            "icon_2": "silhouette",
+            "heading_2": "<a href=\"/policies/legal-notice\" title=\"Legal Notice\">Impressum</a>",
+            "icon_3": "chat_bubble",
+            "heading_3": "<a href=\"/pages/contact\" title=\"Kontakt\">Kontakt</a>"
           }
         },
         "variant_picker": {
@@ -82,23 +89,32 @@
             "show_gift_card_recipient": true
           }
         },
+        "custom_liquid_a3Kix4": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document</title>\n</head>\n<style>\n\n.section-1-container{\n    margin-top: 5px;\n    max-width: 250px;\n    display: grid;\n    grid-template-columns: 1fr 2fr;\n    border: 1px solid rgba(0, 0, 0, 0.1);\n    border-radius: 10px;\n\n}\n\n.icon-10{\n    padding-top: 19px;\n    padding-left: 20px;\n}\n\n.icon-20{\n    height: 30px;\n    width: auto;\n}\n\n.text-10{\n    font-size: 18px;\n    font-weight: bold;\n    color: black;\n    font-family: sans-serif;\n}\n\n.div-text-20{\n    margin-left: -10px;\n    padding-top: 1px;\n}\n\n</style>\n<body>\n    <section class=\"section-1\">\n        <div class=\"section-1-container\">\n            <div class=\"icon-10\">\n                <img class=\"icon-20\" src=\"https://cdn.shopify.com/s/files/1/0657/8415/2277/files/clock.arrow.circlepath_10x_2d3128b5-2db0-418a-9850-59e8acc047ad.png?v=1706298857\">\n            </div>\n            <div class=\"div-text-20\">\n                <p class=\"text-10\">2 Jahre Garantie</p>\n            </div>\n        </div>\n    </section>\n</body>\n</html>"
+          }
+        },
         "share": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "share_label": "Teilen"
           }
         }
       },
       "block_order": [
-        "vendor",
         "title",
+        "vendor",
         "caption",
         "rating",
         "price",
-        "custom_liquid_a3Kix4",
+        "icon_with_text_rpQXWC",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "custom_liquid_a3Kix4",
         "share"
       ],
       "settings": {
@@ -126,7 +142,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document<\/title>\n\n<style>\n\n.klarna-sec{\n    max-width: 600px;\n    margin: auto;\n}\n\n.klarna-img{\n    max-width: 100px;\n}\n\n.div-klarna-1{\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    padding-left: 10px;\n    padding-right: 20px;\n    background-color: rgb(237, 234, 230);\n    max-width: 600px;\n    border-radius: 15px;\n}\n\n.p-klarna-1{\n    font-size: 17px;\n    line-height: 115%;\n    font-weight: 500;\n    color: black;\n}\n\n.link-klarna{\n    color: black;\n}\n\nbutton {\n    padding: 10px 20px;\n    font-size: 16px;\n}\n\n.popup {\n    display: none;\n    position: fixed;\n    z-index: 100;\n    left: 0;\n    top: 0;\n    width: 100%;\n    height: 100%;\n    overflow: auto;\n    background-color: rgba(0, 0, 0, 0.212);\n}\n\n.popup-content {\n    background-color: #f4f4f4;\n    margin: 15% auto;\n    padding: 20px;\n    width: 80%;\n    max-width: 468px;\n    position: relative;\n    border-radius: 10px;\n}\n\n\n\n.payment-options {\n    display: grid;\n    grid-template-areas:\n        'item1 item1'\n        'item2 item3';\n    grid-template-columns: 1fr 1fr;\n    gap: 10px;\n}\n\n\n.option {\n    flex: 1;\n    padding: 15px;\n    border-radius: 10px;\n    background-color: white;\n}\n\n.item1 {\n    grid-area: item1;\n}\n\n.item2 {\n    grid-area: item2;\n}\n\n.item3 {\n    grid-area: item3;\n}\n\n.header-logos {\n    display: flex;\n    justify-content: center; \/* Center children *\/\n    align-items: center; \/* Align children vertically *\/\n    position: relative; \/* Allows absolute positioning relative to this container *\/\n}\n\n.klarna-logo img, .closeBtn img {\n    height: 50px; \/* Set the height for both images *\/\n}\n\n.closeBtn {\n    position: absolute;\n    right: 0; \/* Align the close button to the right *\/\n    top: 50%; \/* Align the top of the button to the center vertically *\/\n    transform: translateY(-50%); \/* Offset the button by half its height to truly center it *\/\n}\n\n.closeBtn-2 {\n    padding: 15px 20px;\n    font-size: 17px;\n    background-color: black;\n    color: white;\n    text-align: center;\n    border-radius: 25px;\n    cursor: pointer;\n}\n\n.closeBtn:hover,\n.closeBtn:focus {\n    color: black;\n    text-decoration: none;\n    cursor: pointer;\n}\n\n.popup-h2 {\n    font-size: 25px;\n    font-weight: 600;\n}\n\n.popup-icon-1 {\n    height: 40px;\n}\n\n.option-h3 {\n    font-size: 20px;\n    font-weight: 500;\n    margin-top: 5px;\n}\n\n.option-p{\n    font-size: 13px;\n    margin-top: -20px;\n}\n\n.Zahlungsbedingungen-p{\n    font-size: 11px;\n    color: rgb(81, 81, 81);\n}\n\n.so-funkt-h3{\n    font-size: 20px;\n    font-weight: 500;\n    margin-top: 35px;\n}\n\n.steps {\n    display: flex;\n    flex-direction: column;\n    margin-bottom: 25px;\n    padding: 20px;\n    background-color: white;\n    border-radius: 10px;\n}\n\n.step {\n    display: flex;\n    align-items: flex-start;\n    position: relative;\n    padding-left: 20px; \/* Adjust to ensure enough space for dot *\/\n}\n\n.step .dot {\n    position: absolute;\n    left: 0;\n    width: 12px;\n    height: 12px;\n    background-color: black;\n    border-radius: 50%;\n}\n\n.dot {\n    margin-top: 3.75px;\n}\n\n\n.step p {\n    margin: 0;\n}\n\n.span-title-1{\n    font-size: 17px;\n}\n\n.span-p-1{\n    font-size: 11px;\n}\n\n.line-1 {\n    width: 1.5px;\n    height: 25px;\n    background-color: black;\n    margin-left: 5px;\n}\n\n.line-2 {\n    width: 1.5px;\n    height: 50px;\n    background-color: black;\n    margin-left: 5px;\n    margin-top: -35px;\n}\n<\/style>\n<\/head>\n<body>\n    <div class=\"klarna-sec\">\n        <div class=\"div-klarna-1\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/Marketing_Badge_With_Clear_Space.png?v=1719052109\" class=\"klarna-img\">\n            <p class=\"p-klarna-1\">Shoppe jetzt. Bezahle mit Klarna.\n                <a href=\"#\"  id=\"openPopupBtn\" class=\"link-klarna\">Mehr erfahren<\/a>\n            <\/p>\n        <\/div>\n    <\/div>\n\n    <div id=\"klarnaPopup\" class=\"popup\">\n        <div class=\"popup-content\">\n            <div class=\"header-logos\">\n                <div class=\"klarna-logo\">\n                    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/Wordmark_Transparent_And_Pink.png?v=1719066820\" alt=\"Klarna Logo\">\n                <\/div>\n                <div class=\"closeBtn\">\n                    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/1099163-200.png?v=1719067239\" alt=\"Close\">\n                <\/div>\n            <\/div>\n            <h2 class=\"popup-h2\">Flexible Zahlungsmethoden<\/h2>\n            <div class=\"payment-options\">\n                <div class=\"option item1\">\n                    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/calendar_10x_53ed82b1-348c-4855-935f-2d2bba4c6979.png?v=1719069487\" alt=\"calendar\" class=\"popup-icon-1\">\n                    <h3 class=\"option-h3\">Bezahle in bis zu 30 Tagen<\/h3>\n                    <p class=\"option-p\">Erst Bestellung erhalten, dann bezahlen.<\/p>\n                <\/div>\n                <div class=\"option item2\">\n                    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/hourglass_10x_d13c5049-3766-46d8-a526-9aa946c74231.png?v=1719070229\" alt=\"Ratenzahlung\" class=\"popup-icon-1\">\n                    <h3 class=\"option-h3\">Ratenzahlung<\/h3>\n                    <p class=\"option-p\">teile den Betrag in kleinere Zahlungen auf.<\/p>\n                <\/div>\n                <div class=\"option item3\">\n                    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/bolt.fill_10x_4bb78ea6-084d-44ae-8bb7-dc2e9742d671.png?v=1719070223\" alt=\"now\" class=\"popup-icon-1\">\n                    <h3 class=\"option-h3\">Sofort bezahlen<\/h3> \n                    <p class=\"option-p\">Bezahle heute den Gesamtbetrag mit Karte.<\/p>\n                <\/div>\n            <\/div>\n            <p class=\"Zahlungsbedingungen-p\">Die Verfügbarkeit der Zahlungsmethoden kann je nach Shop und Betrag unterschiedlich ausfallen. Vorbehaltlich Kreditwürdigkeitsprüfung. Es können zusätzliche Zahlungsbedingungen gelten. <a href=\"https:\/\/www.klarna.com\/de\/agb\/\" class=\"link-klarna\">Zahlungsbedingungen<\/a>. Klarna's Käuferschutz schließt bestimmte Zahlungsmethoden und Käufe aus, z.B.\n                Reisen, Veranstaltungstickets oder Geschenkkarten. <a href=\"https:\/\/www.klarna.com\/de\/agb\/\" class=\"link-klarna\">Zahlungsbedingungen<\/a>.<\/p>\n            <h3 class=\"so-funkt-h3\">So funktioniert's:<\/h3>\n            <div class=\"steps\">\n                <div class=\"step\">\n                    <div class=\"dot\"><\/div>\n                    <p>\n                        <span class=\"span-title-1\">Wähle Klarna am Checkout<\/span>\n                    <\/p>\n                <\/div>\n                <div class=\"line-1\"><\/div>\n                <div class=\"step\">\n                    <div class=\"dot\"><\/div>\n                    <p>\n                        <span class=\"span-title-1\">Entscheide dich für einen Zahlungsplan<\/span><\/br>\n                        <span class=\"span-p-1\">Je nach Kaufbetrag und Kreditwürdigkeit werden dir möglicherweise andere Zahlungspläne angezeigt.<\/span>\n                    <\/p>\n                <\/div>\n                <div class=\"line-2\"><\/div>\n                <div class=\"step\">\n                    <div class=\"dot\"><\/div>\n                    <p>\n                        <span class=\"span-title-1\">Schließe deine Bestellung ab<\/span><\/br>\n                        <span class=\"span-p-1\">Wir buchen die Ratenzahlungen je nach deinem Zahlungsplan automatisch ab.<\/span>\n                    <\/p>\n                <\/div>\n            <\/div>\n            <div class=\"closeBtn-2\">Schließen<\/div>\n        <\/div>\n    <\/div>\n\n    <script>\n        document.addEventListener('DOMContentLoaded', (event) => {\n    const openPopupBtn = document.getElementById('openPopupBtn');\n    const popup = document.getElementById('klarnaPopup');\n    const closeBtns = document.querySelectorAll('.closeBtn, .closeBtn-2');\n\n    openPopupBtn.addEventListener('click', () => {\n        popup.style.display = 'block';\n    });\n\n    closeBtns.forEach(btn => {\n        btn.addEventListener('click', () => {\n            popup.style.display = 'none';\n        });\n    });\n\n    window.addEventListener('click', (event) => {\n        if (event.target == popup) {\n            popup.style.display = 'none';\n        }\n    });\n});\n\n    <\/script>\n<\/body>\n<\/html>",
+        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document</title>\n\n<style>\n\n.klarna-sec{\n    max-width: 600px;\n    margin: auto;\n}\n\n.klarna-img{\n    max-width: 100px;\n}\n\n.div-klarna-1{\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    padding-left: 10px;\n    padding-right: 20px;\n    background-color: rgb(237, 234, 230);\n    max-width: 600px;\n    border-radius: 15px;\n}\n\n.p-klarna-1{\n    font-size: 17px;\n    line-height: 115%;\n    font-weight: 500;\n    color: black;\n}\n\n.link-klarna{\n    color: black;\n}\n\nbutton {\n    padding: 10px 20px;\n    font-size: 16px;\n}\n\n.popup {\n    display: none;\n    position: fixed;\n    z-index: 100;\n    left: 0;\n    top: 0;\n    width: 100%;\n    height: 100%;\n    overflow: auto;\n    background-color: rgba(0, 0, 0, 0.212);\n}\n\n.popup-content {\n    background-color: #f4f4f4;\n    margin: 15% auto;\n    padding: 20px;\n    width: 80%;\n    max-width: 468px;\n    position: relative;\n    border-radius: 10px;\n}\n\n\n\n.payment-options {\n    display: grid;\n    grid-template-areas:\n        'item1 item1'\n        'item2 item3';\n    grid-template-columns: 1fr 1fr;\n    gap: 10px;\n}\n\n\n.option {\n    flex: 1;\n    padding: 15px;\n    border-radius: 10px;\n    background-color: white;\n}\n\n.item1 {\n    grid-area: item1;\n}\n\n.item2 {\n    grid-area: item2;\n}\n\n.item3 {\n    grid-area: item3;\n}\n\n.header-logos {\n    display: flex;\n    justify-content: center; /* Center children */\n    align-items: center; /* Align children vertically */\n    position: relative; /* Allows absolute positioning relative to this container */\n}\n\n.klarna-logo img, .closeBtn img {\n    height: 50px; /* Set the height for both images */\n}\n\n.closeBtn {\n    position: absolute;\n    right: 0; /* Align the close button to the right */\n    top: 50%; /* Align the top of the button to the center vertically */\n    transform: translateY(-50%); /* Offset the button by half its height to truly center it */\n}\n\n.closeBtn-2 {\n    padding: 15px 20px;\n    font-size: 17px;\n    background-color: black;\n    color: white;\n    text-align: center;\n    border-radius: 25px;\n    cursor: pointer;\n}\n\n.closeBtn:hover,\n.closeBtn:focus {\n    color: black;\n    text-decoration: none;\n    cursor: pointer;\n}\n\n.popup-h2 {\n    font-size: 25px;\n    font-weight: 600;\n}\n\n.popup-icon-1 {\n    height: 40px;\n}\n\n.option-h3 {\n    font-size: 20px;\n    font-weight: 500;\n    margin-top: 5px;\n}\n\n.option-p{\n    font-size: 13px;\n    margin-top: -20px;\n}\n\n.Zahlungsbedingungen-p{\n    font-size: 11px;\n    color: rgb(81, 81, 81);\n}\n\n.so-funkt-h3{\n    font-size: 20px;\n    font-weight: 500;\n    margin-top: 35px;\n}\n\n.steps {\n    display: flex;\n    flex-direction: column;\n    margin-bottom: 25px;\n    padding: 20px;\n    background-color: white;\n    border-radius: 10px;\n}\n\n.step {\n    display: flex;\n    align-items: flex-start;\n    position: relative;\n    padding-left: 20px; /* Adjust to ensure enough space for dot */\n}\n\n.step .dot {\n    position: absolute;\n    left: 0;\n    width: 12px;\n    height: 12px;\n    background-color: black;\n    border-radius: 50%;\n}\n\n.dot {\n    margin-top: 3.75px;\n}\n\n\n.step p {\n    margin: 0;\n}\n\n.span-title-1{\n    font-size: 17px;\n}\n\n.span-p-1{\n    font-size: 11px;\n}\n\n.line-1 {\n    width: 1.5px;\n    height: 25px;\n    background-color: black;\n    margin-left: 5px;\n}\n\n.line-2 {\n    width: 1.5px;\n    height: 50px;\n    background-color: black;\n    margin-left: 5px;\n    margin-top: -35px;\n}\n</style>\n</head>\n<body>\n    <div class=\"klarna-sec\">\n        <div class=\"div-klarna-1\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0657/8415/2277/files/Marketing_Badge_With_Clear_Space.png?v=1719052109\" class=\"klarna-img\">\n            <p class=\"p-klarna-1\">Shoppe jetzt. Bezahle mit Klarna.\n                <a href=\"#\"  id=\"openPopupBtn\" class=\"link-klarna\">Mehr erfahren</a>\n            </p>\n        </div>\n    </div>\n\n    <div id=\"klarnaPopup\" class=\"popup\">\n        <div class=\"popup-content\">\n            <div class=\"header-logos\">\n                <div class=\"klarna-logo\">\n                    <img src=\"https://cdn.shopify.com/s/files/1/0657/8415/2277/files/Wordmark_Transparent_And_Pink.png?v=1719066820\" alt=\"Klarna Logo\">\n                </div>\n                <div class=\"closeBtn\">\n                    <img src=\"https://cdn.shopify.com/s/files/1/0657/8415/2277/files/1099163-200.png?v=1719067239\" alt=\"Close\">\n                </div>\n            </div>\n            <h2 class=\"popup-h2\">Flexible Zahlungsmethoden</h2>\n            <div class=\"payment-options\">\n                <div class=\"option item1\">\n                    <img src=\"https://cdn.shopify.com/s/files/1/0657/8415/2277/files/calendar_10x_53ed82b1-348c-4855-935f-2d2bba4c6979.png?v=1719069487\" alt=\"calendar\" class=\"popup-icon-1\">\n                    <h3 class=\"option-h3\">Bezahle in bis zu 30 Tagen</h3>\n                    <p class=\"option-p\">Erst Bestellung erhalten, dann bezahlen.</p>\n                </div>\n                <div class=\"option item2\">\n                    <img src=\"https://cdn.shopify.com/s/files/1/0657/8415/2277/files/hourglass_10x_d13c5049-3766-46d8-a526-9aa946c74231.png?v=1719070229\" alt=\"Ratenzahlung\" class=\"popup-icon-1\">\n                    <h3 class=\"option-h3\">Ratenzahlung</h3>\n                    <p class=\"option-p\">teile den Betrag in kleinere Zahlungen auf.</p>\n                </div>\n                <div class=\"option item3\">\n                    <img src=\"https://cdn.shopify.com/s/files/1/0657/8415/2277/files/bolt.fill_10x_4bb78ea6-084d-44ae-8bb7-dc2e9742d671.png?v=1719070223\" alt=\"now\" class=\"popup-icon-1\">\n                    <h3 class=\"option-h3\">Sofort bezahlen</h3> \n                    <p class=\"option-p\">Bezahle heute den Gesamtbetrag mit Karte.</p>\n                </div>\n            </div>\n            <p class=\"Zahlungsbedingungen-p\">Die Verfügbarkeit der Zahlungsmethoden kann je nach Shop und Betrag unterschiedlich ausfallen. Vorbehaltlich Kreditwürdigkeitsprüfung. Es können zusätzliche Zahlungsbedingungen gelten. <a href=\"https://www.klarna.com/de/agb/\" class=\"link-klarna\">Zahlungsbedingungen</a>. Klarna's Käuferschutz schließt bestimmte Zahlungsmethoden und Käufe aus, z.B.\n                Reisen, Veranstaltungstickets oder Geschenkkarten. <a href=\"https://www.klarna.com/de/agb/\" class=\"link-klarna\">Zahlungsbedingungen</a>.</p>\n            <h3 class=\"so-funkt-h3\">So funktioniert's:</h3>\n            <div class=\"steps\">\n                <div class=\"step\">\n                    <div class=\"dot\"></div>\n                    <p>\n                        <span class=\"span-title-1\">Wähle Klarna am Checkout</span>\n                    </p>\n                </div>\n                <div class=\"line-1\"></div>\n                <div class=\"step\">\n                    <div class=\"dot\"></div>\n                    <p>\n                        <span class=\"span-title-1\">Entscheide dich für einen Zahlungsplan</span></br>\n                        <span class=\"span-p-1\">Je nach Kaufbetrag und Kreditwürdigkeit werden dir möglicherweise andere Zahlungspläne angezeigt.</span>\n                    </p>\n                </div>\n                <div class=\"line-2\"></div>\n                <div class=\"step\">\n                    <div class=\"dot\"></div>\n                    <p>\n                        <span class=\"span-title-1\">Schließe deine Bestellung ab</span></br>\n                        <span class=\"span-p-1\">Wir buchen die Ratenzahlungen je nach deinem Zahlungsplan automatisch ab.</span>\n                    </p>\n                </div>\n            </div>\n            <div class=\"closeBtn-2\">Schließen</div>\n        </div>\n    </div>\n\n    <script>\n        document.addEventListener('DOMContentLoaded', (event) => {\n    const openPopupBtn = document.getElementById('openPopupBtn');\n    const popup = document.getElementById('klarnaPopup');\n    const closeBtns = document.querySelectorAll('.closeBtn, .closeBtn-2');\n\n    openPopupBtn.addEventListener('click', () => {\n        popup.style.display = 'block';\n    });\n\n    closeBtns.forEach(btn => {\n        btn.addEventListener('click', () => {\n            popup.style.display = 'none';\n        });\n    });\n\n    window.addEventListener('click', (event) => {\n        if (event.target == popup) {\n            popup.style.display = 'none';\n        }\n    });\n});\n\n    </script>\n</body>\n</html>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -135,6 +151,24 @@
     "product_description_JzqWJN": {
       "type": "product-description",
       "settings": {
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "Unsere Auswahl für dich",
+        "heading_size": "h1",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 60
       }
     },
     "1680593778598b9b08": {
@@ -158,7 +192,7 @@
           "type": "button",
           "settings": {
             "button_label": "Siehe mehr",
-            "button_link": "shopify:\/\/pages\/reviews",
+            "button_link": "shopify://pages/reviews",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -187,41 +221,41 @@
         "column_C4EGFw": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bildschirmfoto_2024-03-02_um_14.42.31.png",
+            "image": "shopify://shop_images/Bildschirmfoto_2024-03-02_um_14.42.31.png",
             "title": "",
             "text": "",
             "link_label": "Zu der Bewertung",
-            "link": "https:\/\/de.trustpilot.com\/reviews\/65bc91763d19c30b21748610"
+            "link": "https://de.trustpilot.com/reviews/65bc91763d19c30b21748610"
           }
         },
         "column_ArLQBA": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bildschirmfoto_2024-03-02_um_14.45.53.png",
+            "image": "shopify://shop_images/Bildschirmfoto_2024-03-02_um_14.45.53.png",
             "title": "",
             "text": "",
             "link_label": "Zu der Bewertung",
-            "link": "https:\/\/de.trustpilot.com\/reviews\/6596e80f31cd940c1681f5c5"
+            "link": "https://de.trustpilot.com/reviews/6596e80f31cd940c1681f5c5"
           }
         },
         "column_F8VDbb": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bildschirmfoto_2024-03-02_um_14.48.19.png",
+            "image": "shopify://shop_images/Bildschirmfoto_2024-03-02_um_14.48.19.png",
             "title": "",
             "text": "",
             "link_label": "Zu der Bewertung",
-            "link": "https:\/\/de.trustpilot.com\/reviews\/65301bf3a30c9607d7062d4e"
+            "link": "https://de.trustpilot.com/reviews/65301bf3a30c9607d7062d4e"
           }
         },
         "column_FLQLeT": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bildschirmfoto_2024-03-02_um_14.50.33.png",
+            "image": "shopify://shop_images/Bildschirmfoto_2024-03-02_um_14.50.33.png",
             "title": "",
             "text": "",
             "link_label": "Zu der Bewertung",
-            "link": "https:\/\/de.trustpilot.com\/reviews\/6218e978e0365cc27e79499e"
+            "link": "https://de.trustpilot.com/reviews/6218e978e0365cc27e79499e"
           }
         }
       },
@@ -240,30 +274,12 @@
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "Zu unserem Trustpilot",
-        "button_link": "https:\/\/de.trustpilot.com\/review\/rinosbike.eu",
+        "button_link": "https://de.trustpilot.com/review/rinosbike.eu",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "heading": "Siehe auch",
-        "heading_size": "h2",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 0,
-        "padding_bottom": 60
       }
     },
     "newsletter": {
@@ -279,7 +295,7 @@
         "paragraph": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Erhalte als erstes Information über neue Produkte und erhalte exklusive Rabatte.<\/p>"
+            "text": "<p>Erhalte als erstes Information über neue Produkte und erhalte exklusive Rabatte.</p>"
           }
         },
         "email-form": {
@@ -311,11 +327,11 @@
     "klarna_banner_1_aLUAVi",
     "custom_liquid_Fc96bP",
     "product_description_JzqWJN",
+    "related-products",
     "1680593778598b9b08",
     "review_section_small_fKwkg6",
     "rich_text_Kt3KYn",
     "multicolumn_UM8jw9",
-    "related-products",
     "newsletter"
   ]
 }

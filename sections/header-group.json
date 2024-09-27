@@ -18,7 +18,7 @@
           "type": "announcement",
           "settings": {
             "text": "2024 NEUES MODELL | Sparen Sie bis zu 300 € bei Gravel Bikes | Kostenloser Versand",
-            "link": "shopify:\/\/collections\/gravelbikes"
+            "link": "shopify://collections/gravelbikes"
           }
         }
       },
@@ -46,7 +46,7 @@
           "type": "announcement",
           "settings": {
             "text": "Sehen Sie mehr als 130 Bewertungen auf Trustpilot",
-            "link": "https:\/\/de.trustpilot.com\/review\/rinosbike.eu?utm_medium=trustbox&utm_source=MicroReviewCount"
+            "link": "https://de.trustpilot.com/review/rinosbike.eu?utm_medium=trustbox&utm_source=MicroReviewCount"
           }
         }
       },
@@ -73,9 +73,9 @@
         ".header-wrapper {padding-left: 5px; padding-right: 5px; background-color: rgb(256, 256, 256, 0);}"
       ],
       "settings": {
-        "logo_position": "middle-left",
+        "logo_position": "middle-center",
         "menu": "new-hauptmenu",
-        "menu_type_desktop": "dropdown",
+        "menu_type_desktop": "drawer",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": false,
         "color_scheme": "background-1",
