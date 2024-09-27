@@ -1,86 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>conversionbanner</title>
-
-<style>
-
-@media (min-width: 300px) {
-  .grid-container { grid-template-columns: repeat(4, 1fr); }
-}
-
-@media (min-width: 600px) {
-  .grid-container { grid-template-columns: repeat(4, 1fr); }
-}
-
-@media (min-width: 900px) {
-  .grid-container { grid-template-columns: repeat(4, 1fr); }
-}
-
-.grid-container{
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
-    padding: 5px;
-    max-width: 700px;
-    display: grid;
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-}
-
-.column-1{
-    font-family: sans-serif;
-    height: fit-content;
-    padding: 10px;
-    padding-top: 20px;
-
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>conversionbanner</title>
     
-}
-
-.icon{
-    max-height: 30px;
-    max-width: auto;
-}
-
-.text-1{
-    font-size: small;
-    font-weight: bold;
-    color: black;
-}
-
-
-
-</style>
-
-</head>
-<body>
-    <section>
-        <div class="grid-container">
-            <div class="column-1">
-                <img class="icon" src="https://cdn.shopify.com/s/files/1/0720/5794/6377/files/checkmark.seal_50x_d42034e5-e3f9-4989-bc12-5cf78f88dca0.png?v=1707559188">
-                <p class="text-1">{{ section.settings.quality_text }}</p>
+    <style>
+    
+    
+    
+    .grid-container-12{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 700px;
+        margin-top: 5px;
+        display: grid;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    
+    .column-1{
+        font-family: sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .icon-23{
+        max-height: 25px;
+        max-width: auto;
+    }
+    
+    .text-1454{
+        font-size: 12px;
+        font-weight: 500;
+        color: black;
+    }
+    
+    @media screen and (max-width: 700px){
+    
+        .grid-container-12{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    
+        .icon-23{
+            max-height: 20px;
+            max-width: auto;
+        }
+    
+        .text-1454{
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 100%;
+            margin-top: 10px;
+        }
+    }
+    
+    
+    </style>
+    
+    </head>
+    <body>
+        <section>
+            <div class="grid-container-12">
+                <div class="column-1">
+                    <img class="icon-23" src="https://cdn.shopify.com/s/files/1/0720/5794/6377/files/checkmark.seal_50x_d42034e5-e3f9-4989-bc12-5cf78f88dca0.png?v=1707559188">
+                    <p class="text-1454">{{ section.settings.quality_text }}</p>
+                </div>
+                <div class="column-1">
+                    <img class="icon-23" src="https://cdn.shopify.com/s/files/1/0720/5794/6377/files/creditcard_50x_53ac8ace-146a-42ef-b76b-1874811506b4.png?v=1707559188">
+                    <p class="text-1454">{{ section.settings.payment_text }}</p>
+                </div>
+                <div class="column-1">
+                    <img class="icon-23" src="https://cdn.shopify.com/s/files/1/0720/5794/6377/files/shipping.png?v=1707559188">
+                    <p class="text-1454">{{ section.settings.delivery_text }}</p>
+                </div>
+                <div class="column-1">
+                    <img class="icon-23" src="https://cdn.shopify.com/s/files/1/0720/5794/6377/files/return.left_50x_5fbc781f-b60f-4a4a-9878-6dfb3ab01dfa.png?v=1707559188">
+                    <p class="text-1454">{{ section.settings.return_text }}</p>
+                </div>
+                <div class="column-1">
+                    <img class="icon-23" src="https://cdn.shopify.com/s/files/1/0720/5794/6377/files/clock.arrow.2.circlepath_10x_8810601c-f67e-42d7-8886-cf026214dd6b.png?v=1724910713">
+                    <p class="text-1454">{{ section.settings.support_text }}</p>
+                </div>
             </div>
-            <div class="column-1">
-                <img class="icon" src="https://cdn.shopify.com/s/files/1/0720/5794/6377/files/creditcard_50x_53ac8ace-146a-42ef-b76b-1874811506b4.png?v=1707559188">
-                <p class="text-1">{{ section.settings.payment_text }}</p>
-            </div>
-            <div class="column-1">
-                <img class="icon" src="https://cdn.shopify.com/s/files/1/0720/5794/6377/files/shipping.png?v=1707559188">
-                <p class="text-1">{{ section.settings.delivery_text }}</p>
-            </div>
-            <div class="column-1">
-                <img class="icon" src="https://cdn.shopify.com/s/files/1/0720/5794/6377/files/return.left_50x_5fbc781f-b60f-4a4a-9878-6dfb3ab01dfa.png?v=1707559188">
-                <p class="text-1">{{ section.settings.return_text }}</p>
-            </div>
-        </div>
-    </section>
-</body>
-</html>
+        </section>
+    </body>
+    </html>
 
 {% schema %}
 {
@@ -109,6 +119,12 @@
             "id": "return_text",
             "label": "Return Text",
             "default": "14 Tage Rückgabe"
+        },
+        {
+            "type": "text",
+            "id": "support_text",
+            "label": "Support Text",
+            "default": "Lebenslanger Support"
         }
     ],
     "presets": [
