@@ -58,6 +58,18 @@
           "settings": {
           }
         },
+        "icon_with_text_rpQXWC": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "box",
+            "heading_1": "<a href=\"/policies/shipping-policy\" title=\"Shipping Policy\">Versandinformationen</a>",
+            "icon_2": "silhouette",
+            "heading_2": "<a href=\"/policies/legal-notice\" title=\"Legal Notice\">Impressum</a>",
+            "icon_3": "chat_bubble",
+            "heading_3": "<a href=\"/pages/contact\" title=\"Kontakt\">Kontakt</a>"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -98,6 +110,7 @@
         "caption",
         "rating",
         "price",
+        "icon_with_text_rpQXWC",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
