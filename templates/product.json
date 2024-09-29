@@ -48,11 +48,6 @@
             "text_style": "subtitle"
           }
         },
-        "rating": {
-          "type": "rating",
-          "settings": {
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -108,7 +103,6 @@
         "title",
         "vendor",
         "caption",
-        "rating",
         "price",
         "icon_with_text_rpQXWC",
         "variant_picker",
