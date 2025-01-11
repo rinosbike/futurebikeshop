@@ -9,49 +9,6 @@
  */
 {
   "sections": {
-    "4e60dd16-fea1-4dec-bf47-6aaba5387910": {
-      "type": "rich-text",
-      "blocks": {
-        "template--19394820768090__4e60dd16-fea1-4dec-bf47-6aaba5387910-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
-        "template--19394820768090__4e60dd16-fea1-4dec-bf47-6aaba5387910-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Rennräder sind für Straßenrennen und Trainingseinheiten auf Asphalt ausgelegt. Sie haben einen leichten Rahmen und schmale, glatte Reifen, um den Rollwiderstand zu minimieren. Gravelbikes mit leichten Carbonrahmen erweitern diese Möglichkeit auch auf Schotterwegen. </p>"
-          }
-        },
-        "template--19394820768090__4e60dd16-fea1-4dec-bf47-6aaba5387910-button-1": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--19394820768090__4e60dd16-fea1-4dec-bf47-6aaba5387910-heading-1",
-        "template--19394820768090__4e60dd16-fea1-4dec-bf47-6aaba5387910-text-1",
-        "template--19394820768090__4e60dd16-fea1-4dec-bf47-6aaba5387910-button-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "11f4fda8-27fc-4b16-8623-5752e83215d2": {
       "type": "multicolumn",
       "blocks": {
@@ -179,7 +136,6 @@
     }
   },
   "order": [
-    "4e60dd16-fea1-4dec-bf47-6aaba5387910",
     "11f4fda8-27fc-4b16-8623-5752e83215d2",
     "product-grid",
     "rinos_comparison_table_mtb_wfJih4",
