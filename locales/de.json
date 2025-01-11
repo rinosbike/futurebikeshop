@@ -666,6 +666,11 @@
     }
   },
   "bikes": {
+    "title": {
+      "mtb": "MTB Vergleich",
+      "gravel": "Gravel Vergleich",
+      "road": "Rennrad Vergleich"
+    },
     "weight_label": "Gewicht",
     "gear_label": "Schaltung",
     "gears_label": "Gänge",
