@@ -1,0 +1,189 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "4e60dd16-fea1-4dec-bf47-6aaba5387910": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19394820768090__4e60dd16-fea1-4dec-bf47-6aaba5387910-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--19394820768090__4e60dd16-fea1-4dec-bf47-6aaba5387910-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rennräder sind für Straßenrennen und Trainingseinheiten auf Asphalt ausgelegt. Sie haben einen leichten Rahmen und schmale, glatte Reifen, um den Rollwiderstand zu minimieren. Gravelbikes mit leichten Carbonrahmen erweitern diese Möglichkeit auch auf Schotterwegen. </p>"
+          }
+        },
+        "template--19394820768090__4e60dd16-fea1-4dec-bf47-6aaba5387910-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19394820768090__4e60dd16-fea1-4dec-bf47-6aaba5387910-heading-1",
+        "template--19394820768090__4e60dd16-fea1-4dec-bf47-6aaba5387910-text-1",
+        "template--19394820768090__4e60dd16-fea1-4dec-bf47-6aaba5387910-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "11f4fda8-27fc-4b16-8623-5752e83215d2": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19394820768090__11f4fda8-27fc-4b16-8623-5752e83215d2-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Gross_IMG_0179_1.png",
+            "title": "Sandman1.0",
+            "text": "<p>Das preiswerteste Gravelbike online.</p>",
+            "link_label": "Jetzt kaufen!",
+            "link": "https://futurebikeshop.de/products/rinos-carbon-gravel-bike-sandman1-0-shimano-r3000"
+          }
+        },
+        "template--19394820768090__11f4fda8-27fc-4b16-8623-5752e83215d2-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Gross_IMG_0183_997d4bbc-1d73-47f7-a5ba-e7b67799c58b.png",
+            "title": "Sandman3.0",
+            "text": "<p>Tolle Leistung und Komfort. Hochwertige Komponenten für maximalen Wert.</p>",
+            "link_label": "Jetzt kaufen!",
+            "link": "https://futurebikeshop.de/products/rinos-carbon-gravel-bike-sandman3-0-shimano-r7000"
+          }
+        },
+        "template--19394820768090__11f4fda8-27fc-4b16-8623-5752e83215d2-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/rinos-carbon-gravel-bike-sandman50-shimano-r8000-ultegra_15.webp",
+            "title": "Sandman5.0",
+            "text": "<p>Hochwertige Ultegra-Komponenten für Geschwindigkeit und Leistung.</p>",
+            "link_label": "Jetzt kaufen!",
+            "link": "https://futurebikeshop.de/products/rinos-carbon-gravel-bike-sandman5-0-shimano-r8000"
+          }
+        }
+      },
+      "block_order": [
+        "template--19394820768090__11f4fda8-27fc-4b16-8623-5752e83215d2-column-1",
+        "template--19394820768090__11f4fda8-27fc-4b16-8623-5752e83215d2-column-2",
+        "template--19394820768090__11f4fda8-27fc-4b16-8623-5752e83215d2-column-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Gravel Bikes vergleichen",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 20,
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "quick_add": "none",
+        "enable_filtering": true,
+        "filter_type": "drawer",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "rinosbike_comparison_1_p3hXdp": {
+      "type": "rinosbike-comparison-1",
+      "settings": {}
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Abonniere unseren Newsletter!",
+            "heading_size": "h2"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Erhalte als erstes Information über neue Produkte und erhalte exklusive Rabatte.<br/></p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "custom_css": [
+        ".newsletter__wrapper {border: none;}"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "4e60dd16-fea1-4dec-bf47-6aaba5387910",
+    "11f4fda8-27fc-4b16-8623-5752e83215d2",
+    "product-grid",
+    "rinosbike_comparison_1_p3hXdp",
+    "banner",
+    "newsletter"
+  ]
+}
